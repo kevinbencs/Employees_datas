@@ -1,2 +1,3 @@
-3 19 Kiss Mari 9 Manager
-11 22 Kiss Gábor 8 Baker
+2 12 Kiss Mari 8 Baker
+12 22 Kiss Gabor 7 Manager
+25 30 Gabor Gyorgy 6 Manager
