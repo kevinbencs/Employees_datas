@@ -1,5 +1,5 @@
 #include "employees.h"
-#include <fstream>
+
 
 employees::employees()
 {
@@ -7,36 +7,51 @@ employees::employees()
 
 employees::employees(int age, std::string name, int experience, std::string position)
 {
-    std::ifstream fin("Employees_data.txt");
-    std::string line;
-    while(!fin.eof()){
-        fin>>line;
-    }
-    code=std::stoi(line)+1;
-    fin.close();
-
     this->age=age;
     this->name=name;
     this->experience=experience;
     this->position=position;
 
-    line=std::to_string(code)+' '+std::to_string(this->age)+' '+this->name+' '+std::to_string(this->experience)+' '+this->position;
-    std::ofstream fout("Employees_data.txt");
-
-    fout.close();
 }
 
-
-void employees::delete_employees(int code)
+employees::employees(int code,int age, std::string name, int experience, std::string position)
 {
-    std::ofstream fin("Employees_data.txt");
-    for(){}
-    fin.close();
+    this->code=code;
+    this->age=age;
+    this->name=name;
+    this->experience=experience;
+    this->position=position;
+
 }
 
-void employees::edit_employees(int code, int age, std::string name, int experience, std::string position)
+void employees::edit_code(int code)
 {
-    for()
+    this->code=code;
+}
+
+void employees::edit_age(int age)
+{
+    this->age=age;
+}
+
+void employees::edit_experience(int experience)
+{
+    this->experience=experience;
+}
+
+int employees::get_code()
+{
+    return code;
+}
+
+void employees::edit_name(std::string name)
+{
+    this->name=name;
+}
+
+void employees::edit_position(std::string position)
+{
+    this->position=position;
 }
 
 employees::~employees()
