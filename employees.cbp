@@ -34,9 +34,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/employes.h" />
+		<Unit filename="include/employees.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/employes.cpp" />
+		<Unit filename="src/employees.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
