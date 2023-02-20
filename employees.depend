@@ -1,8 +1,13 @@
 # depslib dependency file v1.0
-1676895666 source:c:\users\kevin\music\employes\main.cpp
+1676926047 source:c:\users\kevin\music\employes\main.cpp
 	<iostream>
 	"employees.h"
+	<fstream>
+	<vector>
 
-1676897002 c:\users\kevin\music\employes\include\employees.h
+1676925726 c:\users\kevin\music\employes\include\employees.h
 	<string>
+
+1676925316 source:c:\users\kevin\music\employes\src\employees.cpp
+	"employees.h"
 

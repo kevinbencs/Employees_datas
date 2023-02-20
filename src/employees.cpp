@@ -54,6 +54,26 @@ void employees::edit_position(std::string position)
     this->position=position;
 }
 
+int employees::get_age()
+{
+    return age;
+}
+
+int employees::get_experience()
+{
+    return experience;
+}
+
+std::string employees::get_name()
+{
+    return name;
+}
+
+std::string employees::get_position()
+{
+    return position;
+}
+
 employees::~employees()
 {
 
