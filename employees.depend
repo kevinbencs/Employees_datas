@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1676895666 source:c:\users\kevin\music\employes\main.cpp
+	<iostream>
+	"employees.h"
+
+1676897002 c:\users\kevin\music\employes\include\employees.h
+	<string>
+

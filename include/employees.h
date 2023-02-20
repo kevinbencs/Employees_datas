@@ -1,7 +1,6 @@
-#include <string>
 #ifndef EMPLOYES_H
 #define EMPLOYES_H
-
+#include <string>
 
 class employees
 {
@@ -9,8 +8,6 @@ class employees
         employees();
 
         employees(int age, std::string name, int experience, std::string position);
-
-        void set_code(int last_code);
 
         void delete_employees(int code);
 
