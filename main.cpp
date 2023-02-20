@@ -5,17 +5,17 @@
 #include <iterator>
 
 
-void enter_the_datas(std::vector<employees> &datas);
+void enter_the_datas(std::vector<employees> &datas); //Call the employee's datas from the .txt file.
 
-void write_to_file(std::vector<employees> &datas);
+void write_to_file(std::vector<employees> &datas); //Write the employee's datas into the .txt file
 
-void new_employee(std::vector<employees> &datas);
+void new_employee(std::vector<employees> &datas); //Give a new employee's data
 
 void delete_employee(std::vector<employees> &datas);
 
-void edit_data_employee(std::vector<employees> &datas);
+void edit_data_employee(std::vector<employees> &datas); //Edit an employee's data (age, code, ...)
 
-void show_data_employee(std::vector<employees> &datas);
+void show_data_employee(std::vector<employees> &datas); //Show one employee's data's on command line.
 
 void show_data_all_employee(std::vector<employees> &datas);
 
